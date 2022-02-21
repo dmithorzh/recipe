@@ -1,12 +1,10 @@
-package com.yorik.recipe.repositories;
+package guru.springframework.repositories;
 
-import com.yorik.recipe.domain.Recipe;
+import guru.springframework.domain.Recipe;
 import org.springframework.data.repository.CrudRepository;
 
 /**
- * ПТерОДУктЕль was here
+ * Created by jt on 6/13/17.
  */
 public interface RecipeRepository extends CrudRepository<Recipe, Long> {
-
-
 }
